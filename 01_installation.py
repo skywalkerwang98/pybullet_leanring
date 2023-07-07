@@ -2,8 +2,8 @@ import time
 import pybullet
 import pybullet_data
 
-clent = pybullet.connect(pybullet.GUI)
-# client = pybullet.connect(pybullet.DIRECT)
+# clent = pybullet.connect(pybullet.GUI)
+client = pybullet.connect(pybullet.DIRECT)
 # pybullet.GUI：服务端打开图形GUI做渲染，需要独显，性能消耗大
 # pybullet.DIRECT：不打开图形渲染，性能消耗小
 
